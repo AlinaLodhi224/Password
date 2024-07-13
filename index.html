@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var correctPassword = "password123";
+
+var userInput = prompt("Enter your password:");
+
+if (userInput === null || userInput === "") {
+    document.write("Please enter your password.");
+} else if (userInput === correctPassword) {
+    document.write("Correct! The password you entered matches the original password.");
+} else {
+    document.write("Incorrect password.");
+}
+
+    </script>
+</body>
+</html>
